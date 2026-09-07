@@ -1,0 +1,22 @@
+{
+  "name": "gb-remote-relay-server",
+  "version": "1.0.0",
+  "description": "Cloud WebSocket Relay Server for GB Remote Desktop",
+  "main": "relay-server.js",
+  "scripts": {
+    "start": "node relay-server.js"
+  },
+  "keywords": [
+    "remote-desktop",
+    "relay",
+    "websocket"
+  ],
+  "author": "GB Remote",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
